@@ -1,0 +1,30 @@
+/* Обнуляем отступы */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Основные шрифты */
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Адаптивность картинок */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Немного дополнительного отступа для контейнера */
+main.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Override цвета для бутстрап-кнопок (если надо) */
+.btn-dark {
+  background-color: #343a40;
+  border-color: #343a40;
+}
